@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>MyBookList</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='skeleton.css'>
+    <link rel='stylesheet' type='text/css' href='app.css'>
+
+    <script src="https://kit.fontawesome.com/96ab4f78b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center"><i class="fas fa-book-open book-span"></i> My<span class="book-span">Book</span>List
+        </h1>
+        <form id="book-form">
+            <div>
+                <label for="Title">Title</label>
+                <input type="text" id="title" class="u-full-width">
+            </div>
+            <div>
+                <label for="Author">Author</label>
+                <input type="text" id="author" class="u-full-width">
+            </div>
+            <div>
+                <label for="ISBN">ISBN</label>
+                <input type="text" id="isbn" class="u-full-width">
+            </div>
+            <input type="submit" value="submit" class="u-full-width btn-background">
+            <div id="alert" hidden="true">I am the default text, but unfortunatly nobody's gonna see me</div>
+        </form> 
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="book-list">
+            </tbody>
+        </table>
+    </div>
+
+    <script src='app.js'></script>
+</body>
+
+</html>

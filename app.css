@@ -1,0 +1,55 @@
+.book-span {
+color: burlywood;
+}
+
+.text-center {
+    text-align: center;
+  }
+
+.btn-background {
+    background-color:burlywood;
+    ;
+    color :white;
+}
+
+.link-background  {
+  color: white;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.delete:link, .delete.a:visited {
+  background-color: #f44336;
+}
+
+.delete:hover, .delete:active {
+  background-color: red;
+}
+
+.edit:link, .edit.a:visited {
+  background-color: #0059b3;
+}
+
+.edit:hover, .edit:active {
+  background-color: #0073e6;
+}
+
+.success, .error {
+  color: white;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+}
+
+.success{
+  background: green;
+}
+
+.error{
+  background: red;
+}
+
+.grayed{
+  background-color: WhiteSmoke;
+}
