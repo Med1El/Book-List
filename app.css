@@ -53,3 +53,8 @@ color: burlywood;
 .grayed{
   background-color: WhiteSmoke;
 }
+
+.contained {
+  margin-right: 400px;
+  margin-left: 400px;
+}
